@@ -23,7 +23,7 @@ const App = () => {
 
         try {
             // Send a POST request to the backend API endpoint
-            const response = await fetch('http://localhost:3001/api/action', {
+            const response = await fetch('https://in-app-poc-backend-production.up.railway.app/api/action', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
